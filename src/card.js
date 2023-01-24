@@ -5,10 +5,10 @@ export default function card(props) {
   return (
     <>
       <div className="card">
-        <img className="img" src={props.img} />
+        <img className="img" src={props.img} alt="main_pic" />
 
         <div className="main">
-          <img className="pin" src={pin} />
+          <img className="pin" src={pin} alt="pin" />
           <span className="country"> {props.country} &nbsp;</span>
           <a href={props.link} className="google">
             View in Google Maps

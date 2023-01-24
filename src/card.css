@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+.card {
+  width: 500px;
+  /* border: 1px black solid; */
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  margin: 20px;
+  text-align: justify;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.img {
+  max-width: 150px;
+  min-height: fit-content;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.main {
+  margin-left: 10px;
+}
+
+.pin {
+  height: 15px;
+}
+
+.country {
+  font-weight: 600;
+}
+
+.google {
+  text-decoration: underline;
+  color: rgb(107, 107, 107);
+}
+
+h1 {
+  font-size: xx-large;
+}
+h4 {
+  color: rgb(102, 102, 102);
+  margin-block: 5px;
+}
